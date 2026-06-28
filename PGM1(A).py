@@ -5,6 +5,7 @@ from mlxtend.plotting import plot_decision_regions
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('/content/placement-dataset.csv')
+#https://www.kaggle.com/datasets/sameerprogrammer/college-placement
 
 X = df[['cgpa', 'iq']]
 y = df['placement']
